@@ -60,9 +60,42 @@ second_list=first_list*2
 
 print(second_list)
 
+"""convert a string into list"""
+
+s='spam'
+t=list(s)
+print(t)
+
+
+"""The list function breaks a string into individual letters. If you want to break a string into
+words, you can use the split method:"""
+
+s = 'pining for the fjords'
+
+t=s.split()
+
+print(t)
+
+s='pining-for-the-fjords'
+delimiter='-'
+t=s.split(delimiter)
+
+print(t)
+
+"""join is the inverse of split. It takes a list of strings and concatenates the elements. join is
+a string method, so you have to invoke it on the delimiter and pass the list as a parameter:"""
+
+t = ['pining', 'for', 'the', 'fjords']
+
+delimiter=' '
+
+s=delimiter.join(t)
+
+print(s)
+
 mylist = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm']
 
-"""
+""""
 
 mylist[::] is the same as mylist[:] and mylist[::1] since it will give the whole array
 
