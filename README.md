@@ -1,2 +1,2 @@
-# python-3.5
-basic programs related to python for beginers
+# Python Basics
+Basic programs related to Python for beginers
